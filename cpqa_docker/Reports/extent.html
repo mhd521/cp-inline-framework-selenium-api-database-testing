@@ -1,0 +1,1435 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>/cpqadocker/Reports/extent.html</title>
+
+	<style type='text/css'>
+	</style>
+</head>
+
+	<body class='extent standard default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo blue darken-3">Extent</a>
+
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+		</ul>
+
+		<!-- report name -->
+		<span class='report-name'>Automation Report</span>
+		
+		<!-- report headline -->
+		<span class='report-headline'></span>
+
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<li>
+                <a href='#!'>
+                    <span class='label suite-start-time blue darken-3'>Apr 15, 2020 10:43:53 PM</span>
+				</a>
+			</li>
+			<li>
+                <a href='#!'>
+                    <span class='label blue darken-3'>3.1.5</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+		<!-- container -->
+		<div class='container'>
+
+<div id='test-view' class='view'>
+				
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+					<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+
+			<!-- category toggle -->
+			<!-- category toggle -->
+
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+					<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+					<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+					<i class='material-icons'>search</i> Search
+				</a>
+
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+				
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+
+	<div class='subview-left left'>
+		
+		<div class='view-summary'>
+			<h5>Tests</h5>
+			<ul id='test-collection' class='test-collection'>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>curatorDashBoardTest</span>
+						<span class='test-time'>Apr 15, 2020 10:43:53 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:43:53 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:43:55 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+975ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:43:53 PM</td>
+					<td class='step-details'>Running on Selenium Grid</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:43:55 PM</td>
+					<td class='step-details'>POD2026_New_Patient_Continue_Curation_Btn_Test************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>POD2026_New_Patient_Continue_Curation_Btn_Test</span>
+						<span class='test-time'>Apr 15, 2020 10:43:55 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:43:55 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:44:43 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 47s+448ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:01 PM</td>
+					<td class='step-details'>navigating to ...https://qa-pod-as2.dfci.harvard.edu</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:01 PM</td>
+					<td class='step-details'>Login Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:08 PM</td>
+					<td class='step-details'>We are at Project Selection Page!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:15 PM</td>
+					<td class='step-details'>Test On CP Version Curation Tool v1.5.1-qa</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:20 PM</td>
+					<td class='step-details'>We are at Project Selection Page!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:25 PM</td>
+					<td class='step-details'>WorkFlow Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:27 PM</td>
+					<td class='step-details'>Curator Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:27 PM</td>
+					<td class='step-details'>WorkFlow Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:38 PM</td>
+					<td class='step-details'>Patient MRN Label Displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:44:38 PM</td>
+					<td class='step-details'>Buttons Working</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:44:42 PM</td>
+					<td class='step-details'>POD2026_New_Patient_Continue_Curation_Btn_Test is pass</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:43 PM</td>
+					<td class='step-details'>POD2027_All_Curator_Workflow_Button_Test************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='ScreenShots/blank_15_04_2020_10_44_25.png' width='10%' src='ScreenShots/blank_15_04_2020_10_44_25.png' data-src='ScreenShots/blank_15_04_2020_10_44_25.png'></li>
+								<li><img data-featherlight='ScreenShots/blank_15_04_2020_10_44_27.png' width='10%' src='ScreenShots/blank_15_04_2020_10_44_27.png' data-src='ScreenShots/blank_15_04_2020_10_44_27.png'></li>
+								<li><img data-featherlight='../ScreenShots/POD2026_New_Patient_Continue_Curation_Btn_Test_15_04_2020_10_44_42.png' width='10%' src='../ScreenShots/POD2026_New_Patient_Continue_Curation_Btn_Test_15_04_2020_10_44_42.png' data-src='../ScreenShots/POD2026_New_Patient_Continue_Curation_Btn_Test_15_04_2020_10_44_42.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>POD2027_All_Curator_Workflow_Button_Test</span>
+						<span class='test-time'>Apr 15, 2020 10:44:43 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:44:43 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:46:21 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 38s+591ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:43 PM</td>
+					<td class='step-details'>Curator Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:43 PM</td>
+					<td class='step-details'>WorkFlow Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:44:43 PM</td>
+					<td class='step-details'>WorkFlow Page Object Created</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:44:54 PM</td>
+					<td class='step-details'>Resume Curation from Flagged Patient Button is Working</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:45:25 PM</td>
+					<td class='step-details'>View Patient Button is Working</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:45:55 PM</td>
+					<td class='step-details'>Skipping Correction Needed Test because No Patient Available!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:46:08 PM</td>
+					<td class='step-details'>Skipping Reopen Test because No Patient Available!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:46:21 PM</td>
+					<td class='step-details'>Skipping View Patient Button is Working From Curation to Date Section because No Patient Available!</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:46:21 PM</td>
+					<td class='step-details'>POD2027_All_Curator_Workflow_Button_Test is pass</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='ScreenShots/blank_15_04_2020_10_44_43.png' width='10%' src='ScreenShots/blank_15_04_2020_10_44_43.png' data-src='ScreenShots/blank_15_04_2020_10_44_43.png'></li>
+								<li><img data-featherlight='ScreenShots/blank_15_04_2020_10_44_44.png' width='10%' src='ScreenShots/blank_15_04_2020_10_44_44.png' data-src='ScreenShots/blank_15_04_2020_10_44_44.png'></li>
+								<li><img data-featherlight='../ScreenShots/POD2027_All_Curator_Workflow_Button_Test_15_04_2020_10_46_21.png' width='10%' src='../ScreenShots/POD2027_All_Curator_Workflow_Button_Test_15_04_2020_10_46_21.png' data-src='../ScreenShots/POD2027_All_Curator_Workflow_Button_Test_15_04_2020_10_46_21.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>patientSectionTest</span>
+						<span class='test-time'>Apr 15, 2020 10:46:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:46:22 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:46:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+715ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:46:22 PM</td>
+					<td class='step-details'>Running on Selenium Grid</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:46:22 PM</td>
+					<td class='step-details'>POD_2070_curationDirectiveToggleTest************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>POD_2070_curationDirectiveToggleTest</span>
+						<span class='test-time'>Apr 15, 2020 10:46:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:46:22 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:47:33 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 11s+104ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:46:22 PM</td>
+					<td class='step-details'>Curation Directive Toggle Button Testing</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:46:28 PM</td>
+					<td class='step-details'>navigating to ...https://qa-pod-as2.dfci.harvard.edu</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:46:28 PM</td>
+					<td class='step-details'>Login Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:46:35 PM</td>
+					<td class='step-details'>We are at Project Selection Page!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:46:41 PM</td>
+					<td class='step-details'>Test On CP Version Curation Tool v1.5.1-qa</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:46:46 PM</td>
+					<td class='step-details'>We are at Project Selection Page!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:46:52 PM</td>
+					<td class='step-details'>WorkFlow Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:46:54 PM</td>
+					<td class='step-details'>We are at patient section now!</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:47:28 PM</td>
+					<td class='step-details'>No Directive Found!! Curation Directive is OFF Now</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:47:33 PM</td>
+					<td class='step-details'>Directive Found! Curation Directive is ON Now</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:47:33 PM</td>
+					<td class='step-details'>POD_2070_curationDirectiveToggleTest is pass</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:47:33 PM</td>
+					<td class='step-details'>POD_2071_TestingSaveButton************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='ScreenShots/blank_15_04_2020_10_46_52.png' width='10%' src='ScreenShots/blank_15_04_2020_10_46_52.png' data-src='ScreenShots/blank_15_04_2020_10_46_52.png'></li>
+								<li><img data-featherlight='../ScreenShots/POD_2070_curationDirectiveToggleTest_15_04_2020_10_47_33.png' width='10%' src='../ScreenShots/POD_2070_curationDirectiveToggleTest_15_04_2020_10_47_33.png' data-src='../ScreenShots/POD_2070_curationDirectiveToggleTest_15_04_2020_10_47_33.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>POD_2071_TestingSaveButton</span>
+						<span class='test-time'>Apr 15, 2020 10:47:33 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:47:33 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:48:07 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 33s+475ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:47:33 PM</td>
+					<td class='step-details'>Patient Section Save Button Testing</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:47:33 PM</td>
+					<td class='step-details'>We are at patient section now!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> 2007-04-15</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> Yes</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> NDI</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> 2015-09-19</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> 2014-12-31</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> 2007-04-15</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> Yes</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> 2014-12-31</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> NDI</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> 2015-09-19</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>Save Button is Saving Data Correctly</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>POD_2071_TestingSaveButton is pass</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>POD_2072_noOfFieldsTest************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='../ScreenShots/POD_2071_TestingSaveButton_15_04_2020_10_48_07.png' width='10%' src='../ScreenShots/POD_2071_TestingSaveButton_15_04_2020_10_48_07.png' data-src='../ScreenShots/POD_2071_TestingSaveButton_15_04_2020_10_48_07.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>POD_2072_noOfFieldsTest</span>
+						<span class='test-time'>Apr 15, 2020 10:48:07 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:48:07 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:48:12 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+539ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:07 PM</td>
+					<td class='step-details'>We are at patient section now!</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:48:12 PM</td>
+					<td class='step-details'>Patient Deceased = Yes and No of Fields Appearing is >>>8</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:48:12 PM</td>
+					<td class='step-details'>POD_2072_noOfFieldsTest is pass</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:12 PM</td>
+					<td class='step-details'>POD_2073_VitalStatusChangeTest************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='../ScreenShots/POD_2072_noOfFieldsTest_15_04_2020_10_48_12.png' width='10%' src='../ScreenShots/POD_2072_noOfFieldsTest_15_04_2020_10_48_12.png' data-src='../ScreenShots/POD_2072_noOfFieldsTest_15_04_2020_10_48_12.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
+					<div class='test-heading'>
+						<span class='test-name'>POD_2073_VitalStatusChangeTest</span>
+						<span class='test-time'>Apr 15, 2020 10:48:12 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:48:12 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:49:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 9s+944ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:12 PM</td>
+					<td class='step-details'>We are at patient section now!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:43 PM</td>
+					<td class='step-details'>>>>>>>>>>>>>>>>>>>>>>>>> Printing Source Data from UI 2007-04-15</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:43 PM</td>
+					<td class='step-details'>>>>>>>>>>>>>>>>>>>>>>>>> Printing Source Data from UI Yes</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:43 PM</td>
+					<td class='step-details'>>>>>>>>>>>>>>>>>>>>>>>>> Printing Source Data from UI 2014-12-31</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:43 PM</td>
+					<td class='step-details'>>>>>>>>>>>>>>>>>>>>>>>>> Printing Source Data from UI NDI</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:48:43 PM</td>
+					<td class='step-details'>>>>>>>>>>>>>>>>>>>>>>>>> Printing Source Data from UI 2015-09-19</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:48:54 PM</td>
+					<td class='step-details'>EstimationDateofDeath >>> null</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:49:22 PM</td>
+					<td class='step-details'>POD_2073_VitalStatusChangeTest is pass</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:22 PM</td>
+					<td class='step-details'>POD_2074_lastUpdatedDateTest************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='../ScreenShots/POD_2073_VitalStatusChangeTest_15_04_2020_10_49_22.png' width='10%' src='../ScreenShots/POD_2073_VitalStatusChangeTest_15_04_2020_10_49_22.png' data-src='../ScreenShots/POD_2073_VitalStatusChangeTest_15_04_2020_10_49_22.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
+					<div class='test-heading'>
+						<span class='test-name'>POD_2074_lastUpdatedDateTest</span>
+						<span class='test-time'>Apr 15, 2020 10:49:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:49:22 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:49:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+61ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:22 PM</td>
+					<td class='step-details'>We are at patient section now!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:23 PM</td>
+					<td class='step-details'>Form Last Saved Date is : 04/15/20</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:23 PM</td>
+					<td class='step-details'>Form Last Saved Expected Date is : 04/15/20</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:49:23 PM</td>
+					<td class='step-details'>Saved Date and Current Date is Matching!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:23 PM</td>
+					<td class='step-details'>Curator Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:23 PM</td>
+					<td class='step-details'>WorkFlow Page Object Created</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:49:27 PM</td>
+					<td class='step-details'>POD_2074_lastUpdatedDateTest is pass</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='ScreenShots/blank_15_04_2020_10_49_23.png' width='10%' src='ScreenShots/blank_15_04_2020_10_49_23.png' data-src='ScreenShots/blank_15_04_2020_10_49_23.png'></li>
+								<li><img data-featherlight='../ScreenShots/POD_2074_lastUpdatedDateTest_15_04_2020_10_49_27.png' width='10%' src='../ScreenShots/POD_2074_lastUpdatedDateTest_15_04_2020_10_49_27.png' data-src='../ScreenShots/POD_2074_lastUpdatedDateTest_15_04_2020_10_49_27.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
+					<div class='test-heading'>
+						<span class='test-name'>tumorMarkerTest</span>
+						<span class='test-time'>Apr 15, 2020 10:49:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:49:28 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:49:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+671ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:28 PM</td>
+					<td class='step-details'>Running on Selenium Grid</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:29 PM</td>
+					<td class='step-details'>POD_2115_totalTumorMarkerCountTest************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
+					<div class='test-heading'>
+						<span class='test-name'>POD_2115_totalTumorMarkerCountTest</span>
+						<span class='test-time'>Apr 15, 2020 10:49:29 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:49:29 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:51:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 58s+241ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:34 PM</td>
+					<td class='step-details'>navigating to ...https://qa-pod-as2.dfci.harvard.edu</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:34 PM</td>
+					<td class='step-details'>Login Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:41 PM</td>
+					<td class='step-details'>We are at Project Selection Page!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:48 PM</td>
+					<td class='step-details'>Test On CP Version Curation Tool v1.5.1-qa</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:53 PM</td>
+					<td class='step-details'>We are at Project Selection Page!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:49:58 PM</td>
+					<td class='step-details'>WorkFlow Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:50:00 PM</td>
+					<td class='step-details'>We are at patient section now!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:50:06 PM</td>
+					<td class='step-details'>We are at Tumor Marker section now!</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:50:57 PM</td>
+					<td class='step-details'>Tumor Marker Blank Form Successfully Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:51:19 PM</td>
+					<td class='step-details'>Total Tumor Marker Report Count in UI = 2</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:51:19 PM</td>
+					<td class='step-details'>Curator Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:51:19 PM</td>
+					<td class='step-details'>WorkFlow Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:51:27 PM</td>
+					<td class='step-details'>Total Tumor Marker Report Count in Database = 2</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:51:27 PM</td>
+					<td class='step-details'>Tumor Marker Total Count of the Report is Matching!</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:51:27 PM</td>
+					<td class='step-details'>POD_2115_totalTumorMarkerCountTest is pass</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:51:27 PM</td>
+					<td class='step-details'>POD_2117_tumorMarkerToggleButtonTest************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='ScreenShots/blank_15_04_2020_10_49_58.png' width='10%' src='ScreenShots/blank_15_04_2020_10_49_58.png' data-src='ScreenShots/blank_15_04_2020_10_49_58.png'></li>
+								<li><img data-featherlight='ScreenShots/blank_15_04_2020_10_51_19.png' width='10%' src='ScreenShots/blank_15_04_2020_10_51_19.png' data-src='ScreenShots/blank_15_04_2020_10_51_19.png'></li>
+								<li><img data-featherlight='../ScreenShots/POD_2115_totalTumorMarkerCountTest_15_04_2020_10_51_27.png' width='10%' src='../ScreenShots/POD_2115_totalTumorMarkerCountTest_15_04_2020_10_51_27.png' data-src='../ScreenShots/POD_2115_totalTumorMarkerCountTest_15_04_2020_10_51_27.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
+					<div class='test-heading'>
+						<span class='test-name'>POD_2117_tumorMarkerToggleButtonTest</span>
+						<span class='test-time'>Apr 15, 2020 10:51:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:51:27 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:52:08 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 41s+440ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:51:27 PM</td>
+					<td class='step-details'>We are at Tumor Marker section now!</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:51:58 PM</td>
+					<td class='step-details'>No Directive Found!! Curation Directive is OFF Now</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:52:08 PM</td>
+					<td class='step-details'>Directive Found! Curation Directive is ON Now</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:52:08 PM</td>
+					<td class='step-details'>POD_2117_tumorMarkerToggleButtonTest is pass</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:08 PM</td>
+					<td class='step-details'>POD_2118_tumorMarkerFormSaveTest************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='../ScreenShots/POD_2117_tumorMarkerToggleButtonTest_15_04_2020_10_52_08.png' width='10%' src='../ScreenShots/POD_2117_tumorMarkerToggleButtonTest_15_04_2020_10_52_08.png' data-src='../ScreenShots/POD_2117_tumorMarkerToggleButtonTest_15_04_2020_10_52_08.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='13'>
+					<div class='test-heading'>
+						<span class='test-name'>POD_2118_tumorMarkerFormSaveTest</span>
+						<span class='test-time'>Apr 15, 2020 10:52:08 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:52:08 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:52:17 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+4ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:08 PM</td>
+					<td class='step-details'>Tumor Marker Section Save Button Testing</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:08 PM</td>
+					<td class='step-details'>We are at Tumor Marker section now!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:11 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> CA 125</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:11 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> External Institution</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:11 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> 2017-09-15</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:11 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> Day Estimated</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:11 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> 3.5</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:11 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> U/L</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:11 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> Tested</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:11 PM</td>
+					<td class='step-details'>Reply from UI >>>>>>> High</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:11 PM</td>
+					<td class='step-details'>We are at patient section now!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> CA 125</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> External Institution</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> 2017-09-15</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> Day Estimated</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> 3.5</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> U/L</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> Tested</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>Reply from Database >>>>>>> High</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>Save Button is Saving Tumor Marker Data Correctly</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>POD_2118_tumorMarkerFormSaveTest is pass</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>POD_2119_itemDirectiveButtonTest************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='../ScreenShots/POD_2118_tumorMarkerFormSaveTest_15_04_2020_10_52_17.png' width='10%' src='../ScreenShots/POD_2118_tumorMarkerFormSaveTest_15_04_2020_10_52_17.png' data-src='../ScreenShots/POD_2118_tumorMarkerFormSaveTest_15_04_2020_10_52_17.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='14'>
+					<div class='test-heading'>
+						<span class='test-name'>POD_2119_itemDirectiveButtonTest</span>
+						<span class='test-time'>Apr 15, 2020 10:52:17 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:52:17 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:52:19 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+366ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>Testing Tumor Marker Item Directive Button!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:17 PM</td>
+					<td class='step-details'>We are at Tumor Marker section now!</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:52:18 PM</td>
+					<td class='step-details'>Item Directive is Loaded Successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:52:18 PM</td>
+					<td class='step-details'>POD_2119_itemDirectiveButtonTest is pass</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:19 PM</td>
+					<td class='step-details'>POD_2120_lastUpdatedDateTest************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='../ScreenShots/POD_2119_itemDirectiveButtonTest_15_04_2020_10_52_18.png' width='10%' src='../ScreenShots/POD_2119_itemDirectiveButtonTest_15_04_2020_10_52_18.png' data-src='../ScreenShots/POD_2119_itemDirectiveButtonTest_15_04_2020_10_52_18.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='15'>
+					<div class='test-heading'>
+						<span class='test-name'>POD_2120_lastUpdatedDateTest</span>
+						<span class='test-time'>Apr 15, 2020 10:52:19 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:52:19 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:52:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+674ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:19 PM</td>
+					<td class='step-details'>We are at Tumor Marker section now!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:24 PM</td>
+					<td class='step-details'>Form Last Saved Date is : 04/15/20</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:24 PM</td>
+					<td class='step-details'>Form Last Saved Expected Date is : 04/15/20</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:52:24 PM</td>
+					<td class='step-details'>Saved Date and Current Date is Matching!</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:52:24 PM</td>
+					<td class='step-details'>POD_2120_lastUpdatedDateTest is pass</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:24 PM</td>
+					<td class='step-details'>POD_2121_deleteButtonTest************** test started ***************</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='../ScreenShots/POD_2120_lastUpdatedDateTest_15_04_2020_10_52_24.png' width='10%' src='../ScreenShots/POD_2120_lastUpdatedDateTest_15_04_2020_10_52_24.png' data-src='../ScreenShots/POD_2120_lastUpdatedDateTest_15_04_2020_10_52_24.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='16'>
+					<div class='test-heading'>
+						<span class='test-name'>POD_2121_deleteButtonTest</span>
+						<span class='test-time'>Apr 15, 2020 10:52:24 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2020 10:52:24 PM</span>
+	<span class='label end-time'>Apr 15, 2020 10:52:30 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+250ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:24 PM</td>
+					<td class='step-details'>We are at Tumor Marker section now!</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:25 PM</td>
+					<td class='step-details'>Curator Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:52:25 PM</td>
+					<td class='step-details'>WorkFlow Page Object Created</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:52:30 PM</td>
+					<td class='step-details'>POD_2121_deleteButtonTest is pass</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='ScreenShots/blank_15_04_2020_10_52_25.png' width='10%' src='ScreenShots/blank_15_04_2020_10_52_25.png' data-src='ScreenShots/blank_15_04_2020_10_52_25.png'></li>
+								<li><img data-featherlight='../ScreenShots/POD_2121_deleteButtonTest_15_04_2020_10_52_30.png' width='10%' src='../ScreenShots/POD_2121_deleteButtonTest_15_04_2020_10_52_30.png' data-src='../ScreenShots/POD_2121_deleteButtonTest_15_04_2020_10_52_30.png'></li>
+							</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='test-name'></h5>
+
+			<div id='step-filters' class="right">
+				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
+				<span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
+				<span class="red-text" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></span>
+				<span class="red-text text-darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></span>
+				<span class="pink-text text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></span>
+				<span class="orange-text" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></span>
+				<span class="teal-text" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></span>
+				<span status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></span>
+			</div>
+		</div>
+	</div>
+	<!-- subview right -->
+
+
+<div id='test-view-charts' class='subview-full'>
+	<div id='charts-row' class='row nm-v nm-h'>
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Tests</div>
+				<div class='chart-box'>
+					<canvas id='parent-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>16</span> test(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+		
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='21.97%'><span class='strong'>29</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='78.03%'>103</span> others
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+</div>
+<!-- test view -->
+<!-- category view -->
+<!-- exception view -->
+<div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>16</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>132</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Apr 15, 2020 10:43:53 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Apr 15, 2020 10:52:30 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 8m 36s+607ms</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->
+		</div>
+		<!-- container -->
+
+		<script>
+			var statusGroup = {
+				passParent: 16,
+				failParent: 0,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 0,
+				
+				passChild: 29,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 103,
+				exceptionsChild: 0,
+				
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		
+			<script src='https://cdn.rawgit.com/anshooarora/extentreports-java/fca20fb7653aade98810546ab96a2a4360e3e712/dist/js/extent.js' type='text/javascript'></script>
+		
+		
+ 		<script type='text/javascript'>
+ 		</script>
+	</body>
+	
+</html>

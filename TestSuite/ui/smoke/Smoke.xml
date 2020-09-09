@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke-Test-CP">
+     <test name="CuratorDashboard-Section-Smoke-Test">
+        <classes>
+            <class name="curatorDashBoard.curatorDashBoardTest"/>
+        </classes>
+    </test>
+    <test name="Patient-Section-Smoke-Test">
+        <classes>
+            <class name="patient.patientSectionTest"/>
+        </classes>
+    </test>
+    <test name="Cancer-Section-Smoke-Test">
+        <classes>
+            <class name="cancer.CancerTest"/>
+        </classes>
+    </test>
+    <test name="Tumor-Section-Smoke-Test">
+        <classes>
+            <class name="tumorMarker.tumorMarkerTest"/>
+        </classes>
+    </test>
+    <test name="Hospitalization-Section-Smoke-Test">
+        <classes>
+            <class name="hospitalization.hospitalizationTest"/>
+        </classes>
+    </test>
+
+    <test name="QA-MODE-Buttons-Smoke-Test">
+        <classes>
+            <class name="qa.QAButtonTests"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke-Test-CP">
+    <test name="CuratorDashboard-Section-Smoke-Test">
+        <classes>
+            <class name="curatorDashBoard.curatorDashBoardTest"/>
+        </classes>
+    </test>
+    <test name="Patient-Section-Smoke-Test">
+        <classes>
+            <class name="patient.patientSectionTest"/>
+        </classes>
+    </test>
+</suite>

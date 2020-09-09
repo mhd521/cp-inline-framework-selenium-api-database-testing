@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/shariarahmed/Desktop/CP_Inline_FrameWork_Selenium/src/test/java/Login/POD2022LoginTest.java">
+
+    <classes>
+        <class name="Login.POD2022LoginTest" />
+
+        <class name="curatorDashBoard.curatorDashBoardTest"/>
+        <class name="patient.patientSectionTest"/>
+
+    </classes>
+</test>
+</suite>

@@ -1,0 +1,26 @@
+version: "3"
+services:
+  cp:
+    image: cpqa:1.5.1
+    build: .
+  hub:
+    image: selenium/hub:3.14
+    ports:
+      - "4444:4444"
+  chrome:
+    image: selenium/node-chrome:3.14
+    depends_on:
+      - hub
+    environment:
+      - HUB_HOST=hub
+  cpqa:
+    image: cpqa:1.5.1
+    depends_on:
+      - chrome
+    environment:
+      - HUB_HOST=hub
+      - XML=Smoke.xml
+    volumes:
+      - ./Reports/:/cpqadocker/Reports/
+      - ./ScreenShots:/cpqadocker/ScreenShots/
+      - ./test-output:/cpqadocker/test-output/
